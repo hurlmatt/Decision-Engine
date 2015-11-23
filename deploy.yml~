@@ -1,0 +1,12 @@
+---
+defineEvents:
+  sayHello:
+    runRuleWith:
+      ruleName: sayHello
+      usingReturnKey: sayHello
+    compileFinalResultBy:
+    - jsonResultPath: "$.sayHello.ruleResult"
+      usingReturnKey: sayHello
+defineConnectors: 
+defineResultFormatter:
+  returnAll: true

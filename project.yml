@@ -1,0 +1,7 @@
+---
+project:
+  name: sandbox
+  service_name: sandbox
+tenant: henry
+atom-dme:
+  source: ../atom-dme-0.5-beta/targets/henry/rules.js

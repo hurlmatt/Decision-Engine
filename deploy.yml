@@ -1,0 +1,29 @@
+---
+defineEvents:
+  sayHello:
+    runRuleWith:
+      ruleName: sayHello
+      usingReturnKey: sayHello
+    compileFinalResultBy:
+    - jsonResultPath: "$.sayHello.ruleResult"
+      usingReturnKey: sayHello
+  testCommunications:
+    runRuleWith:
+      ruleName: testCommunications
+      usingReturnKey: testCommunications
+    compileFinalResultBy:
+    - jsonResultPath: "$.testCommunications.ruleResult.decision"
+      usingReturnKey: decision
+  testSurvey:
+    runRuleWith:
+      ruleName: testSurvey
+      usingReturnKey: testSurvey
+    compileFinalResultBy:
+    - jsonResultPath: "$.testSurvey.ruleResult.surveyName"
+      usingReturnKey: surveyName
+defineConnectors:
+  http:
+    servers:
+    - bolts:
+defineResultFormatter:
+  returnAll: true

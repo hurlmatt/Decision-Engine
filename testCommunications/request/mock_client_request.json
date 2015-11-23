@@ -1,0 +1,8 @@
+{
+  "tenantId": "henry",
+  "projectServiceName": "sandbox",
+  "eventId": "testCommunications",
+  "service":"henryservice",
+  "userName":"henryuserName",
+  "preferenceRequest":"henrypreferenceRequest"
+}
