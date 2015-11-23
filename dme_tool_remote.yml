@@ -1,0 +1,9 @@
+---
+mongodb:
+  connect: mongodb://localhost:27717
+nimbus:
+  thrift.port: 6667
+  host: localhost
+drpc:
+  port: 33772
+  host: localhost
